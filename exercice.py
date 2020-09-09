@@ -4,6 +4,7 @@ def capitaliser_pays(nom):
     pl = ord(nom[0])
     if pl >= 97 and pl <= 122: 
         pl = pl - 32
+    for 
 
     return nom
 
