@@ -7,7 +7,7 @@ def majuscule(mot):
             l = l - 32
             mot = mot[0:j] + chr(l) + mot[j+1:]
         elif l == 130:
-            l = 
+            l = 69
     return mot
 
 
