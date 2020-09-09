@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 def majuscule(mot):
     for j in range(len(mot)):
-        al = 
+        al = ord(j) + 32
     return mot
 
 
