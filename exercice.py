@@ -6,12 +6,9 @@ def majuscule(mot):
         if l > 96 and l <123:
             l = l - 32
             mot = mot[0:j] + chr(l) + mot[j+1:]
-        else :
-            print (l)
-            print(chr(l))
-        #elif l == 233:
-            #l = 69
-            #mot = mot[0:j] + chr(l) + mot[j+1:]
+        elif l == 233:
+            l = 69
+            mot = mot[0:j] + chr(l) + mot[j+1:]
     return mot
 
 
