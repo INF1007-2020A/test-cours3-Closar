@@ -1,7 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 def majuscule(mot):
-    for j in range(len(mot))
+    for j in range(len(mot)):
+        
     return mot
 
 
