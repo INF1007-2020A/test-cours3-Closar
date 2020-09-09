@@ -1,8 +1,9 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 def capitaliser_pays(nom):
+    
     if ord(nom[0]) >= 97 and <= 122:
-        
+
     return nom
 
 
