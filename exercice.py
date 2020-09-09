@@ -2,8 +2,11 @@
 # -*- coding: utf-8 -*-
 def majuscule(mot):
     for j in range(len(mot)):
-        c = ord(j) - 32
-        mot = mot[1:j] + chr(c) + mot[j+1:]
+        if j != 0 :
+            l = ord(nom[j])
+            if l > 64 and l <= 90:
+                l = l + 32
+                nom = nom[0:j] + chr(l) + nom[j+1:]
     return mot
 
 
