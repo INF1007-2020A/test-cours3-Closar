@@ -7,7 +7,7 @@ def capitaliser_pays(nom):
     nom = chr(pl) + nom[1:]
     for j in range(len(nom)):
         if nom[j]isspace() = true:
-            sc = sc +
+            sc = sc + 1
         if j != 0 :
             l = ord(nom[j])
             if l > 64 and l <= 90:
