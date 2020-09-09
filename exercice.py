@@ -3,7 +3,7 @@
 def majuscule(mot):
     for j in range(len(mot)):
         if j != 0 :
-            l = ord(nom[j])
+            l = ord(mot[j])
             if l > 64 and l <= 90:
                 l = l + 32
                 nom = nom[0:j] + chr(l) + nom[j+1:]
