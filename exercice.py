@@ -10,7 +10,7 @@ def capitaliser_pays(nom):
             l = ord(nom[j])
         if l >= 97 and l <= 122:
             l = l + 32
-            nom = nom[0:j] + chr(l) + nom[j+1:]
+        nom = nom[0:j] + chr(l) + nom[j+1:]
 
 
 
