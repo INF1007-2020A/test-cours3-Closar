@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 def capitaliser_pays(nom):
     pl = ord(nom[0])
-    if o >= 97 and <= 122:
+    if pl >= 97 and pl <= 122:
 
     return nom
 
