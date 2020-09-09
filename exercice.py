@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 def capitaliser_pays(nom):
     ascii = ord(nom)
+    print(ascii)
     return nom
 
 
