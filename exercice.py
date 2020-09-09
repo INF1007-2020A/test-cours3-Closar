@@ -2,17 +2,17 @@
 # -*- coding: utf-8 -*-
 def capitaliser_pays(nom):
     pl = ord(nom[0])
-    if pl >= 97 and pl <= 122: 
+    if pl >= 97 and pl <= 122:
         pl = pl - 32
-    print chr(pl)
+    nom = chr(pl) + nom[1:]
     for j in range(len(nom)):
-        if j != 0 and isspace(nom[j]) = false:
+        if j != 0 :
             l = ord(nom[j])
-            if l >= 69 and l <= 90 :
+            if l > 64 and l <= 90:
                 l = l + 32
-    print chr(l)
+                nom = nom[0:j] + chr(l) + nom[j+1:]
 
-             
+
 
     return nom
 
