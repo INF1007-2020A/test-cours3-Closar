@@ -5,6 +5,7 @@ def capitaliser_pays(nom):
     if pl >= 97 and pl <= 122:
         pl = pl - 32
     nom = chr(pl) + nom[1:]
+    sc = 0
     for j in range(len(nom)):
         if nom[j].isspace():
             print(nom)
