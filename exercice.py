@@ -7,11 +7,10 @@ def majuscule(mot):
             l = l - 32
             mot = mot[0:j] + chr(l) + mot[j+1:]
         elif l == 233:
-            l = 144
+            l = 201
             mot = mot[0:j] + chr(l) + mot[j+1:]
     return mot
 
-print(ord('É'))
 if __name__ == '__main__':
     mots = [
         'riz',
