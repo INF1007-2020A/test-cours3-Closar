@@ -9,7 +9,7 @@ def capitaliser_pays(nom):
             l = ord(nom[j])
             if l >= 69 and l <= 90 :
                 l = l + 32
-    
+    print chr(l)
 
              
 
