@@ -6,7 +6,7 @@ def majuscule(mot):
             l = ord(mot[j])
             if l > 64 and l <= 90:
                 l = l + 32
-                nom = nom[0:j] + chr(l) + [j+1:]
+                nmot = mot[0:j] + chr(l) + mot[j+1:]
     return mot
 
 
