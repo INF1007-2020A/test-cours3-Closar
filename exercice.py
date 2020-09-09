@@ -17,6 +17,7 @@ def capitaliser_pays(nom):
         elif j != 0 and sc == 2:
             if l >= 97 and l <= 122:
                 l = l - 32
+                sc = 0
     return nom
 
 
