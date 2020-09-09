@@ -3,7 +3,7 @@
 def majuscule(mot):
     for j in range(len(mot)):
         c = ord(j) - 32
-        mot = mot[:j] + c + mot[j+1:]
+        mot = mot[:j] + chr(c) + mot[j+1:]
     return mot
 
 
