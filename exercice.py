@@ -9,7 +9,7 @@ def majuscule(mot):
         else :
             print (l)
             print(chr(l))
-        #elif l == 130:
+        #elif l == 233:
             #l = 69
             #mot = mot[0:j] + chr(l) + mot[j+1:]
     return mot
