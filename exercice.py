@@ -5,7 +5,7 @@ def capitaliser_pays(nom):
     if pl >= 97 and pl <= 122: 
         pl = pl - 32
     for j in range(len(nom)):
-        if j != 0 and isspacenom[j] 
+        if j != 0 and isspace(nom[j]) = false 
 
     return nom
 
