@@ -11,7 +11,7 @@ def majuscule(mot):
             mot = mot[0:j] + chr(l) + mot[j+1:]
     return mot
 
-
+print(ord(É))
 if __name__ == '__main__':
     mots = [
         'riz',
