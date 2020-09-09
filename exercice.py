@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 def capitaliser_pays(nom):
-    print(nom.)
+    print(nom.fi)
     pl = ord(nom[0])
     if pl >= 97 and pl <= 122:
         pl = pl - 32
