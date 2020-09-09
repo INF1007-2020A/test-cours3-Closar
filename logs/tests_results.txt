@@ -6,7 +6,9 @@ ERROR: test_upper_case_names (__main__.TestExercice)
 Traceback (most recent call last):
   File "test_exercice.py", line 17, in test_upper_case_names
     output = list(map(exercice.majuscule, self.words))
-AttributeError: module 'exercice' has no attribute 'majuscule'
+  File "/home/runner/work/test-cours3-Closar/test-cours3-Closar/exercice.py", line 5, in majuscule
+    al = ord(j) + 32
+TypeError: ord() expected string of length 1, but int found
 
 ----------------------------------------------------------------------
 Ran 1 test in 0.000s
