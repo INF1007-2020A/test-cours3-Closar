@@ -7,7 +7,7 @@ def majuscule(mot):
             l = l - 32
             mot = mot[0:j] + chr(l) + mot[j+1:]
         elif l == 233:
-            l = 69
+            l = 144
             mot = mot[0:j] + chr(l) + mot[j+1:]
     return mot
 
