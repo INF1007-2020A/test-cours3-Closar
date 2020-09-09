@@ -1,16 +1,39 @@
-test_upper_case_names (__main__.TestExercice) ... ERROR
+test_upper_case_names (__main__.TestExercice) ... FAIL
 
 ======================================================================
-ERROR: test_upper_case_names (__main__.TestExercice)
+FAIL: test_upper_case_names (__main__.TestExercice)
 ----------------------------------------------------------------------
 Traceback (most recent call last):
-  File "test_exercice.py", line 17, in test_upper_case_names
-    output = list(map(exercice.majuscule, self.words))
-  File "/home/runner/work/test-cours3-Closar/test-cours3-Closar/exercice.py", line 5, in majuscule
-    c = ord(j) - 32
-TypeError: ord() expected string of length 1, but int found
+  File "test_exercice.py", line 21, in test_upper_case_names
+    'Toutes les lettres doivent être en majuscule.'
+AssertionError: Lists differ: ['nord', 'alcool', 'nerveux', 'examen', 'sa[57 chars]bet'] != ['NORD', 'ALCOOL', 'NERVEUX', 'EXAMEN', 'SA[57 chars]BET']
+
+First differing element 0:
+'nord'
+'NORD'
+
+- ['nord',
+-  'alcool',
+-  'nerveux',
+-  'examen',
+-  'sabot',
+-  'unité',
+-  'divertir',
+-  'association',
+-  'pluie',
+-  'alphabet']
++ ['NORD',
++  'ALCOOL',
++  'NERVEUX',
++  'EXAMEN',
++  'SABOT',
++  'UNITÉ',
++  'DIVERTIR',
++  'ASSOCIATION',
++  'PLUIE',
++  'ALPHABET'] : Toutes les lettres doivent être en majuscule.
 
 ----------------------------------------------------------------------
 Ran 1 test in 0.001s
 
-FAILED (errors=1)
+FAILED (failures=1)
