@@ -70,6 +70,6 @@ First differing element 0:
 Diff is 1692 characters long. Set self.maxDiff to None to see it. : Certaines lettres ne doivent pas etre en majuscule
 
 ----------------------------------------------------------------------
-Ran 4 tests in 0.063s
+Ran 4 tests in 0.064s
 
 FAILED (failures=4)
